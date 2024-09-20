@@ -1,0 +1,15 @@
+.recentItem{
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.recentItem img{
+    width: 200px;
+}
+
+.recentItem p {
+    font-size: 10px;
+}

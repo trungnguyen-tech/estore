@@ -1,0 +1,46 @@
+.contactDetail.container {
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.iconContactItem.col {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 150px;
+}
+
+.iconContact.row {
+    display: flex;
+    gap: 85px;
+    height: 200px;
+}
+
+.iconContactItem .iconContactItem-content{
+    font-size: 14px;
+    color: var(--gray-7);
+    text-align: center;
+}
+
+.messageUs {
+    width: 80%;
+    text-align: center;
+}
+
+.messageUs p {
+    color: var(--gray-7);
+    text-align: justify;
+    margin-top: 17px;
+}
+
+.formMessage.col {margin-bottom: 50px;border-radius: 10px;}
+
+.customButtonFormIcon{
+    margin-top: 10px;
+}

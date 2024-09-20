@@ -1,0 +1,18 @@
+.orderDetail .customTableOrderDetail{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.orderDetail .customTableOrderDetail i{
+    color: var(--primary-main);
+}
+
+.orderDetail .customTableOrderDetail button{
+    border: unset;
+    background-color: unset;
+    transition: ease-in-out 200ms;
+}
+
+.orderDetail .customTableOrderDetail button:hover  i{
+    color: var(--primary-100);
+}

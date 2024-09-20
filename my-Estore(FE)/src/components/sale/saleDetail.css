@@ -1,0 +1,13 @@
+.saleProductItem .imgSale{
+    padding: 5px;
+    transition: ease-in-out 200ms;
+}
+
+.saleProductItem:hover{
+    cursor: pointer;
+    color: var(--secondary-400);
+}
+
+.saleProductItem:hover .imgSale{
+    padding: 0;
+}

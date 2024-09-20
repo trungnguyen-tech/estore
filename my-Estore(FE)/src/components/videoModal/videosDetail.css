@@ -1,0 +1,24 @@
+.custom-overlay{
+    display: flex;
+    align-items: flex-end;
+    padding: 0;
+}
+
+.custom-title-overlay{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--gray-6);
+    font-size: 18px;
+    padding: 10px;
+    transition: all 200ms;
+}
+
+.custom-overlay:hover .custom-title-overlay{
+    color: white;
+}
+
+.videoTitle{
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px double var(--gray-4);
+}

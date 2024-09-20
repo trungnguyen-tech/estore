@@ -1,0 +1,56 @@
+.accountPage .nav-link.active {
+  background-color: unset;
+  color: var(--primary-main);
+  border-left: 2px solid var(--primary-main);
+  border-radius: unset;
+}
+.accountPage .nav-link.active span {
+  color: var(--primary-main);
+  font-weight: 300;
+}
+.accountPage {
+  height: 600px;
+}
+
+.navMenu .nameUser{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.accountPage .navMenu.col-sm-3 {
+    width: 300px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  background-color: var(--gray-2);
+  border-radius: 10px;
+}
+
+.accountPage .avatarUser {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+.accountPage .flex-column.customNavMenuItem.nav.nav-pills {
+  height: 100%;
+  justify-content: space-between;
+}
+
+.accountPage span {
+  color: black;
+  font-weight: 200;
+}
+
+.accountPage i {
+  margin-right: 10px;
+  color: var(--gray-8)
+}
+
+.accountPage button.btn-Logout {
+    border: none;
+    background-color: unset;
+    color: #C91433;
+}

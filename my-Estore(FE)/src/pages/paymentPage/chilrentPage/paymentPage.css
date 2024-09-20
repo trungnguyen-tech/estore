@@ -1,0 +1,42 @@
+.paymentDetailPage p.card-text label{
+    width: 200px;
+}
+
+.paymentDetailPage p.card-text{
+    color: black;
+}
+
+.paymentDetailPage .preStep{
+    margin-left: 10px;
+    border: unset;
+    font-size: 15px;
+    background-color: unset;
+    color: var(--primary-main);
+    margin-bottom: 20px;
+    transition: ease-in-out 200ms;
+}
+
+.paymentDetailPage .preStep:hover{
+    color: var(--primary-400);
+    transform: translateY(-2px);
+}
+
+.paymentDetailPage .complete{
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid var(--primary-main);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: var(--primary-main);
+    color: white;
+    transition: ease-in-out 200ms;
+}
+.paymentDetailPage .complete:hover{
+    background-color: var(--primary-400);
+}
+
+.modalAnnouncement p{
+    color: black;
+    font-weight: 300;
+    font-size: 17px;
+}

@@ -1,0 +1,371 @@
+* {
+  font-family: inter;
+}
+
+changeColor {
+  color: #f45e0c;
+}
+
+.indexPageDetal {
+  gap: 20px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.tag1 h2 {
+  font-size: 64px;
+  font-weight: 500;
+  color: var(--primay-700);
+}
+
+.tag1 button {
+  background-color: var(--secondary-main);
+  width: 280px;
+  height: 50px;
+  padding: 5px;
+  font-size: 15px;
+  color: var(--white);
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.tag1 span {
+  font-size: 35px;
+}
+
+.categries {
+  gap: 24px;
+  margin: 20px 0;
+}
+
+.btnCustomIndex{
+  transition: ease-in-out 200ms;
+}
+
+.btnCustomIndex:hover{
+  background-color: var(--secondary-main);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.categries a {
+  text-decoration: none;
+  text-align: center;
+  gap: 20px;
+  height: 190px;
+  width: 180px;
+  box-shadow: 0.5px 0.5px 2px #ececec, -0.5px -0.5px 2px #ececec;
+  transition: ease-in-out 200ms;
+  border: 1px solid #ececec;
+  color: var(--gray-10);
+}
+.categries a:hover {
+  transform: translateY(-5px);
+}
+
+.categries a p {
+  color: #2d2d2d;
+}
+
+.saleDetail {
+  position: relative;
+  background-color: var(--primary-500);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 30px 0;
+}
+
+.saleDetail .saleTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--white);
+  gap: 50px;
+}
+
+.saleTitle h4 {
+  font-size: 24px;
+}
+.saleTitle p {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.saleProducts {
+  gap: 10px;
+}
+
+.saleTitleSeeAll {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 200;
+  cursor: pointer;
+  transition: ease-in-out 200ms;
+}
+
+.saleTitleSeeAll:hover {
+  transform: translateY(-2px);
+  opacity: 0.8;
+}
+
+.saleTitleSeeAll:active {
+  transform: translateY(-1px);
+}
+
+.saleTitlebg {
+  width: 200px;
+  height: 100px;
+  background-color: var(--gray-2);
+  position: absolute;
+  opacity: 0.1;
+  border-radius: 10px 60px 10px 60px;
+  top: 35px;
+  left: 5px;
+}
+
+.saleProductItem {
+  width: 180px;
+  height: 230px;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 200;
+  color: var(--black);
+  position: relative;
+  transition: ease-in-out 200ms;
+}
+.saleProductItem h5 {
+  font-size: 15px;
+  font-weight: 200;
+  margin: 10px 0;
+}
+
+.saleProductItem .discount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-100);
+  color: var(--secondary-400);
+  border-radius: 0 5px 5px 0;
+  height: 20px;
+  width: 35px;
+  font-size: 10px;
+  font-weight: 500;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+
+.salePrice {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.salePriceItem {
+  color: var(--gray-7);
+  text-decoration: line-through;
+}
+
+.bestSellerDetails {
+  margin: 30px 0;
+}
+
+.bestSellerDetails .headerContent {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 65px;
+  border-bottom: 2px solid var(--gray-5);
+  margin-bottom: 30px;
+}
+
+.bestSellerDetails .headerContent a {
+  margin-top: 10px;
+  text-decoration: none;
+  color: var(--black);
+  font-size: 13px;
+  cursor: pointer;
+  transition: ease-in-out 200ms;
+}
+
+.bestSellerDetails .headerContent a:hover {
+  transform: translateY(-3px);
+}
+
+.bestSellerItems {
+  gap: 20px;
+}
+
+.bestSellerItem {
+  width: 250px;
+  align-items: center;
+  cursor: pointer;
+  height: 350px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: none;
+  transition: ease-in-out 250ms;
+}
+
+.bestSellerItem:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.bestSellerItem .imgItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+  object-fit: fill;
+  background-color: white;
+  transition: ease-in-out 250ms;
+}
+
+.bestSellerItem:hover .imgItem {
+  padding: 0;
+}
+
+.bestSellerItem .card-text h5 {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 265px;
+  text-overflow: ellipsis;
+  margin: 20px 0;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.bestSellerItem:hover .card-text h5{
+  color: var(--primary-500);
+}
+
+.bestSellerItem .footerItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 35px 0 10px 0;
+}
+
+.bestSellerItem .footerItem span:first-child {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.bestSellerItem .footerItem span:last-child {
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--primary-500);
+}
+
+.brandsItems {
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.brandsItems img {
+  width: 100px;
+  height: 75px;
+}
+
+.sidleBlogs-header a {
+  font-size: 13px;
+  font-weight: 400;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  transition: ease-in-out 200ms;
+}
+
+.sidleBlogs-header a:hover {
+  transform: translateY(-2px);
+}
+
+.sidleBlogs-content img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.content-main {
+  justify-content: center;
+  align-items: center;
+}
+
+.content-main img {
+  width: 250px;
+}
+
+.content-sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.content-subItem {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  gap: 10px;
+}
+
+.ourSevices {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  border-top: 1px solid var(--gray-4);
+  border-bottom: 1px solid var(--gray-4);
+}
+
+.ourSevices .iconOurSevices {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ourSevices p {
+  font-size: 16px;
+  color: var(--black);
+  font-weight: 300;
+}
+
+.ourSevices span {
+  width: 38px;
+  height: 38px;
+}
+
+.ourSevices p {
+  margin: 0;
+}
+
+.ourSevices .icon1 {
+  background-image: url("../../assets/icon/icon1.png");
+  background-repeat: no-repeat;
+  background-size: 38px 38px;
+}
+.ourSevices .icon2 {
+  background-image: url("../../assets/icon/icon2.png");
+  background-repeat: no-repeat;
+  background-size: 40px 38px;
+}
+.ourSevices .icon3 {
+  background-image: url("../../assets/icon/icon3.png");
+  background-repeat: no-repeat;
+  background-size: 45px 38px;
+  width: 45px;
+}
+.ourSevices .icon4 {
+  background-image: url("../../assets/icon/icon4.png");
+  background-repeat: no-repeat;
+  background-size: 38px 38px;
+}

@@ -1,0 +1,37 @@
+.productItemPayment{
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: 1px solid var(--gray-2);
+    border-radius: 10px;
+}
+
+.productItemPayment h6{
+    font-weight: 400;
+}
+
+.productItemPayment p {
+    color: black;
+    font-weight: 200;
+    margin: 0;
+}
+
+.productItemPayment .footerContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.productItemPayment .row {
+    display: flex;
+    align-items: center;
+}
+
+.productItemPayment img{
+    width: 75px;
+}
+
+.productItemPayment .price{
+    color: var(--secondary-main);
+    font-size: 16px;
+    font-weight: 400;
+}

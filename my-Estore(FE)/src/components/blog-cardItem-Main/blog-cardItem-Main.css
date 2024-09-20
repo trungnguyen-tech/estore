@@ -1,0 +1,15 @@
+.mainItem p {
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  .mainItem {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .mainItem h5 {
+    font-size: 18px;
+  }

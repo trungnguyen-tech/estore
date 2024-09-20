@@ -1,0 +1,54 @@
+
+.checkOutPage-Content .checkOutPage-ContentItems{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.checkOutPage-ContentItems .checkOutPage-ContentItem{
+    width: 70%;
+}
+
+.card-title.h5 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.checkOutPage-ContentItem .showModalForm{
+    position: absolute;
+    bottom:7px;
+    right: 5px;
+    background-color: revert-layer;
+    color: var(--primary-500);
+    border: none;
+    transition: ease-in-out 200ms;
+}
+
+.checkOutPage-ContentItem .showModalForm:hover{
+    transform: translateY(-2px);
+    color: var(--primary-700);
+}
+
+.checkOutPage-Content .prevPage{
+    background-color: unset;
+    border: none;
+    font-size: 13px;
+    margin-top: 20px;
+    text-align: left;
+    color: var(--primary-500);
+    transition: ease-in-out 200ms;
+}
+
+.checkOutPage-Content .prevPage:hover{
+    transform: translateY(-2px);
+    color: var(--primary-700);
+}
+
+.checkOutPage-Content .btnPayment{
+    border-radius: 50%;
+    color: var(--primary-main);
+    background-color: unset;
+    transform: translateX(-50px);
+    margin-top: 100px;
+    transition: ease-in-out 200ms;
+}

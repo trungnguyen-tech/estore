@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+.titleIconPaymentPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--gray-4);
+    transition: ease-in-out 200ms;
+}
+
+i.material-icons.icon {
+    width: 45px;
+    padding: 10px;
+    border: 1px solid var(--gray-4);
+    border-radius: 50%;
+    background-color: var(--gray-4);
+    color: white;
+}
+
+ul#justify-tab-example {
+    border: none;
+}
+
+.nav-link.active{
+    border: none;
+}
+
+.nav-link.active .titleIconPaymentPage{
+    color: var(--primary-main);
+    font-size: 17px;
+}
+
+.nav-link.active i.material-icons.icon{
+   border: 1px solid var(--primary-main);
+   background-color: white;
+   color: var(--primary-main);
+   width: 55px;
+   padding: 15px;
+}

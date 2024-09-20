@@ -1,0 +1,80 @@
+.securityDetail .context{
+    margin-top: 30px;
+    position: relative;
+    width: 240px;
+}
+
+.securityDetail .context label{
+    color: black;
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.securityDetail .context .icon {
+    position: absolute;
+    top: 57%;
+}
+
+.securityDetail .context .icon.iconLeft{
+    left: 10px;
+    border-right: 1px solid var(--gray-5);
+}
+
+.securityDetail .context .icon.iconRight{
+    right: 20px;
+    cursor: pointer;
+    border: unset;
+    background-color: unset;
+    transition: ease-in-out 150ms;
+}
+
+.securityDetail .context .icon.iconRight:hover{
+    transform: translateY(-1px);
+}
+
+img.bannerChangePass.rounded {
+    width: 350px;
+}
+
+.changePass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.btnAction .btn-acction{
+    font-size: 14px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 7px; 
+    width: 100px;
+    transition: ease-in-out 150ms;
+}
+
+
+.btnAction .btn-acction.btn-cancel{
+    background-color: unset;
+    border: 1px solid var(--primary-main);
+}
+
+.btnAction .btn-acction.btn-cancel:hover{
+    background-color: #C91433;
+    border: 1px solid #C91433;
+    color: white;
+}
+
+.btnAction .btn-acction.btn-access{
+    background-color: var(--primary-main);
+    border: 1px solid var(--primary-main);
+    color: white;
+}
+
+
+.btnAction .btn-acction.btn-access:hover{
+    background-color: #198754;
+    border: 1px solid #198754;
+}
+

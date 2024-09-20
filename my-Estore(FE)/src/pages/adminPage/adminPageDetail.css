@@ -1,0 +1,52 @@
+.customAdminPageDetail{
+    height: 700px;
+}
+
+.customAdminPageDetail h3 {
+    text-align: center;
+    
+    text-transform: uppercase;
+    font-size: 33px;
+    text-shadow: 3px 0px 5px var(--gray-4);
+    color: var(--secondary-main);
+    font-weight: 700;
+}
+
+
+.customAdminPageDetail h5 {
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.customAdminPageDetail .customLeftTabs.col-sm-3 {
+    height: 400px;
+    background-color: var(--gray-2);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.customAdminPageDetail .customLeftTabs .flex-column.nav.nav-pills {
+    gap: 11px;
+    padding-left: 25px;
+}
+
+.customAdminPageDetail .customLeftTabs a.nav-link {
+    color: black;
+    padding: 0 15px;
+    margin-top: 20px;
+    border-radius: unset;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.customAdminPageDetail .customLeftTabs .nav-link.active{
+    background-color: unset;
+    color: var(--primary-main);
+    border-left: 2px solid var(--primary-main);
+    font-weight: 300;
+}

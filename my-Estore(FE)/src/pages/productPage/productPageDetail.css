@@ -1,0 +1,42 @@
+.productDetailPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.productDetailPage .productContextPage .tabIconNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.productContextPage .tabIconNav span {
+  margin-left: 10px;
+}
+
+
+.custom-NavLink .nav-link {
+  background-color: var(--gray-2);
+  border-bottom: 1px solid var(--secondary-main) ;
+  color: black;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.custom-NavLink .nav-link.active {
+  border-top: 1px solid var(--secondary-main);
+  border-left: 1px solid var(--secondary-main);
+  border-right: 1px solid var(--secondary-main);
+  border-bottom: unset;
+  font-weight: 400;
+}
+
+.custom-NavLink .nav-link.active:hover{
+    border-bottom: unset;
+}
+
+.custom-NavLink .nav-link:hover{
+    border-bottom: 1px solid var(--secondary-main) ;
+}

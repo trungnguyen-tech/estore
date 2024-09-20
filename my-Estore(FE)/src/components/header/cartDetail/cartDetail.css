@@ -1,0 +1,19 @@
+ button.navigationPayment {
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid var(--primary-main);
+    background-color: var(--primary-main);
+    color: white;
+    font-size: 15px;
+    border-radius: 7px;
+    transition: ease-in-out 200ms;
+}
+
+ button.navigationPayment:hover{
+    transform: translateY(-2px);
+    background-color: var(--secondary-main);
+    border: 1px solid var(--secondary-main);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

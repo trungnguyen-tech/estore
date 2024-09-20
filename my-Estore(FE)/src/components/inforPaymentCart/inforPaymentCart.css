@@ -1,0 +1,31 @@
+ p.showMoney.card-text {
+    display: flex;
+    justify-content: space-between;
+    color: var(--gray-7);
+  }
+  
+.showMoney.card-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .inforPaymentCart .inforPaymentCard.card {
+    width: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inforPaymentCart button.btnPayment.btn.btn-primary {
+    width: 60%;
+    margin: 11px;
+    font-size: 16px;
+    height: 48px;
+  }
+  
+  .inforPaymentCart.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }

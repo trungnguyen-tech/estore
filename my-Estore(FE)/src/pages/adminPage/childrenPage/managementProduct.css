@@ -1,0 +1,45 @@
+.managementProduct h4 {
+  border-left: 5px solid var(--secondary-main);
+  padding-left: 8px;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.managementProduct .row.filterProducts{
+    align-items: baseline;
+}
+
+.managementProduct .row.rowTable {
+  padding: 10px 10px 30px 10px;
+  margin-top: 10px;
+  max-height: 400px;
+  overflow-y: auto;
+  position: relative;
+}
+
+.managementProduct button.addNewProduct {
+    border: 1px solid var(--gray-5);
+    border-radius: 45%;
+    font-size: 13px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    color: var(--gray-5);
+    background-color: unset;
+    transition: ease-in-out 200ms;
+}
+
+.managementProduct button.addNewProduct:hover{
+    border: 1px solid var(--secondary-main);
+    color: white;   
+    background-color: var(--secondary-main);
+}
+
+.managementProduct table.table.table-striped {
+    border: 1px solid var(--gray-5);
+}
+.managementProduct table.table.table-striped button{
+    background-color: unset;
+    border: unset;
+}
